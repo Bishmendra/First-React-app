@@ -11,7 +11,7 @@ const Navbar = () => {
           <li><Link to="/">Home</Link></li> {/* Changed to Link for SPA */}
           <li><Link to="/course">Courses</Link></li> {/* Changed to Link; this will render the Course component */}
           <li><a href="#">Notes</a></li> {/* Kept as <a> if you want full reload, or change to Link */}
-          <li><a href="#">Contact</a></li> {/* Same as above */}
+          <li><a href="/contact">Contact</a></li> {/* Same as above */}
         </ul>
         <div className="search-bar">
           <input type="text" placeholder="Search..." />

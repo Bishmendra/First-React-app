@@ -10,7 +10,7 @@ const HSect = () => {
                     This site contains all my efforts and dedication for being a data science engineeer.
                 </p>
 
-                <button className="btn">Explore Course</button>
+                <button className="btn"><a href="/course">Explore Course</a></button>
 
                 <div className="social-icons">
                     <a href="#"><i className="fab fa-instagram"></i></a>
