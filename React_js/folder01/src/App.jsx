@@ -18,6 +18,7 @@ function App() {
         {/* Add more routes as needed, e.g., <Route path="/notes" element={<Notes />} /> */}
         
       </Routes>
+    <Course />
     <Contact/>
     </Router>
     
