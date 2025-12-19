@@ -1,5 +1,3 @@
-import React from 'react';
-
 
 const Course = () => {
   // Sample course data (replace with real data from props, state, or API)

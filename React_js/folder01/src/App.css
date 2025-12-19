@@ -1,238 +1,261 @@
   body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #010205;
-        }
-        nav {
-            background-color: black;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-left: 0.5in;
-            padding-top: 0.5in;
-            padding-right: 0.5in;
-            padding-bottom: 0.5in;
-            position: relative;
-        }
-               .search-bar {
-                  display: flex;
-                  align-items: center;
-                }
-        
-                .search-bar input {
-                  padding: 0.5rem;
-                  border: none;
-                  border-radius: 4px;
-                }
-        
-                .buttons {
-                  display: flex;
-                  align-items: center;
-                }
-        
-                .buttons button {
-                  margin-left: 0.5rem;
-                  padding: 0.5rem 1rem;
-                  background-color: #333;
-                  color: white;
-                  border: none;
-                  border-radius: 4px;
-                  cursor: pointer;
-                }
-        
-                .buttons button:hover {
-                  background-color: #555;
-                }
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #010205;
+  }
 
-                .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        .menu {
-            display: flex;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        .menu li {
-            margin-left: 1rem;
-        }
-         .menu a {
-            color: white;
-            text-decoration: none;
-        }
-        .menu a:hover {
-            text-decoration: underline;
-        }
-        .search-bar {
-            display: flex;
-            align-items: center;
-        }
-        .search-bar input {
-            padding: 0.5rem;
-            border: none;
-            border-radius: 4px;
-        }
-        .buttons {
-            display: flex;
-            align-items: center;
-        }
-         .buttons button {
-            margin-left: 0.5rem;
-            padding: 0.5rem 1rem;
-            background-color: #333;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .buttons button:hover {
-            background-color: #555;
-        }
-        /* .mode-button {
+  nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.5in;
+    padding-top: 0.5in;
+    padding-right: 0.5in;
+    padding-bottom: 0.5in;
+    position: relative;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .buttons button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .buttons button:hover {
+    background-color: #555;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    margin-left: 1rem;
+  }
+
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .buttons button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .buttons button:hover {
+    background-color: #555;
+  }
+
+  /* .mode-button {
 
             /* Placeholder for mode toggle; add JS for functionality */
-         
-    /* -------------------card css------------------------------------------------- */
-                .course-container {
-                        padding: 20px;
-                        text-align: center;
-                    }
-                
-                    .course-grid {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 20px;
-                        justify-content: center;
-                    }
-                
-                    .course-card {
-                        border: 1px solid #ddd;
-                        border-radius: 8px;
-                        width: 300px;
-                        overflow: hidden;
-                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                    }
-                
-                    .course-image {
-                        width: 100%;
-                        height: 200px;
-                        object-fit: cover;
-                    }
-                
-                    .course-title {
-                        margin: 10px;
-                        font-size: 1.2em;
-                    }
-                
-                    .course-price {
-                        margin: 10px;
-                        font-weight: bold;
-                        color: #333;
-                    }
-                
-                    .buy-now-btn {
-                        margin: 10px;
-                        padding: 10px 20px;
-                        background-color: #007bff;
-                        color: white;
-                        border: none;
-                        border-radius: 4px;
-                        cursor: pointer;
-                    }
-                
-                    .buy-now-btn:hover {
-                        background-color: #0056b3;
-                    }
+
+  /* -------------------card css------------------------------------------------- */
+  .course-container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .course-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .course-title {
+    margin: 10px;
+    font-size: 1.2em;
+  }
+
+  .course-price {
+    margin: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .buy-now-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .buy-now-btn:hover {
+    background-color: #0056b3;
+  }
 
 
-                    /* ------contact------ */
-                    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  /* ------contact------ */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .footer {
-      background-color: #010205;
-      color: #f8fafc;
-      padding: 48px 24px;
-      margin-top: auto;
-    }
+  .footer {
+    background-color: #010205;
+    color: #f8fafc;
+    padding: 48px 24px;
+    margin-top: auto;
+  }
 
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+  }
+
+  .footer-column h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 16px;
+    color: #f8fafc;
+  }
+
+  .footer-column ul {
+    list-style: none;
+  }
+
+  .footer-column li {
+    margin-bottom: 12px;
+  }
+
+  .footer-column a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer-column a:hover {
+    color: #f8fafc;
+  }
+
+  .footer-column a svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer-tagline {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid #334155;
+    color: #64748b;
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
     .footer-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 48px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
     }
+  }
 
-    .footer-column h3 {
-      font-size: 16px;
-      font-weight: 600;
-      font-style: italic;
-      margin-bottom: 16px;
-      color: #f8fafc;
+  @media (max-width: 480px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
     }
+  }
 
-    .footer-column ul {
-      list-style: none;
-    }
+  section {
+    min-height: 100vh;
+    scroll-margin-top: 80px;
+    /* navbar height */
+  }
 
-    .footer-column li {
-      margin-bottom: 12px;
-    }
+  section h1#center {
 
-    .footer-column a {
-      color: #94a3b8;
-      text-decoration: none;
-      font-size: 14px;
-      transition: color 0.2s ease;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .footer-column a:hover {
-      color: #f8fafc;
-    }
-
-    .footer-column a svg {
-      width: 16px;
-      height: 16px;
-    }
-
-    .footer-tagline {
-      text-align: center;
-      margin-top: 48px;
-      padding-top: 32px;
-      border-top: 1px solid #334155;
-      color: #64748b;
-      font-size: 14px;
-    }
-
-    @media (max-width: 768px) {
-      .footer-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 32px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-    }
+    text-align: center;
+  }

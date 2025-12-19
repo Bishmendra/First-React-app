@@ -2,7 +2,8 @@ import React from 'react'
 
 const contact = () => {
   return (
-    <>
+    <><section>
+    <h1 id='center'>Contact Us</h1>
     <footer className="footer">
   <div className="footer-container">
     <div className="footer-grid">
@@ -90,6 +91,7 @@ const contact = () => {
     </div>
   </div>
 </footer>
+</section>
 
     </>
   )

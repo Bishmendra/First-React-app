@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link for SPA navigation
+// import { Link } from 'react-router-dom'; // Import Link for SPA navigation
  // Assuming you have styles here
+ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -8,10 +9,16 @@ const Navbar = () => {
       <nav>
         <div className="logo">Your Logo</div>
         <ul className="menu"> {/* Fixed: class -> className */}
-          <li><Link to="/">Home</Link></li> {/* Changed to Link for SPA */}
-          <li><Link to="/course">Courses</Link></li> {/* Changed to Link; this will render the Course component */}
+          <li> <Link to="home" smooth={true} duration={500}>
+        Home
+      </Link></li> {/* Changed to Link for SPA */}
+          <li><Link to="course" smooth={true} duration={500}>
+        Courses
+      </Link></li> {/* Changed to Link; this will render the Course component */}
           <li><a href="#">Notes</a></li> {/* Kept as <a> if you want full reload, or change to Link */}
-          <li><a href="/contact">Contact</a></li> {/* Same as above */}
+          <li><Link to="contact" smooth={true} duration={500}>
+        Contact
+      </Link></li> {/* Same as above */}
         </ul>
         <div className="search-bar">
           <input type="text" placeholder="Search..." />
