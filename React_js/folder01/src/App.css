@@ -52,6 +52,12 @@
     font-weight: bold;
   }
 
+  .logo img {
+   width: 51px; /* Set width to 1 pixel */
+height: 51px;
+  }
+  
+
   .menu {
     display: flex;
     list-style: none;

@@ -1,4 +1,5 @@
 import React from 'react'
+ import { Link } from 'react-scroll';
 
 const contact = () => {
   return (
@@ -23,7 +24,9 @@ const contact = () => {
       <div className="footer-column">
         <h3>Learn</h3>
         <ul>
-          <li><a href="/course">Courses</a></li>
+          <li><Link to="course" smooth={true} duration={500}>
+                  Courses
+                </Link></li>
           <li><a href="#">Tutorials</a></li>
           <li><a href="#">Notes</a></li>
         </ul>

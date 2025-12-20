@@ -2,12 +2,14 @@ import React from 'react';
 // import { Link } from 'react-router-dom'; // Import Link for SPA navigation
  // Assuming you have styles here
  import { Link } from 'react-scroll';
+ import logoo from './logoo.png';
+ 
 
 const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="logo">Your Logo</div>
+        <div className="logo"><img src={logoo}  alt="logo" /></div>
         <ul className="menu"> {/* Fixed: class -> className */}
           <li> <Link to="home" smooth={true} duration={500}>
         Home
